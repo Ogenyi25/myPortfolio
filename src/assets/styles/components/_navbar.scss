@@ -1,0 +1,29 @@
+.home {
+  .navbar {
+    .navbar-brand {
+      color: $primary;
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
+    }
+    .float-right {
+      color: $white;
+      margin-left: 15%;
+      .book-button {
+        margin-left: 20px;
+        background-color: $primary;
+        color: $white;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+  .collapse {
+    width: 80vw;
+    align-self: center;
+  }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+}

@@ -1,0 +1,67 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    .welcome {
+        .welcome-words {
+            .welcome-title {
+                margin-top: 250px;
+                margin-left: 100px;
+            }
+            .welcome-body {
+                margin-left: 100px;
+                font-weight: 500;
+            }
+            .welcome-body-note {
+                margin-left: 100px;
+                font-weight: 300; 
+            }
+            /*.hire-me {
+                margin-left: 100px;
+                background-color: $primary;
+                color: $white;
+                height: 40px;
+                border-radius: 5px;
+                border-style: none;
+                margin-top: 50px;
+            }
+            .see-work {
+                margin-left: 85px;
+                background-color: $primary;
+                color: $white;
+                height: 40px;
+                border-radius: 5px;
+                border-style: none;
+                margin-top: 50px;
+            }*/
+        }
+        .welcome-image {
+            .image {
+                background-image:
+                radial-gradient(
+                circle closest-side,
+                rgb(233, 225, 225),
+                rgb(223, 221, 221),
+                #9dccdb
+                );
+                height: 400px;
+                width: 400px;
+                background-color: $primary;
+                border-radius: 100%;
+                margin-top: 100px;
+                margin-left: 200px;
+                .myimg {
+                    width: 250px;
+                    height: 250px;
+                    margin-top: 75px;
+                    margin-left: 75px;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  
+}
