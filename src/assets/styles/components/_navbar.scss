@@ -21,6 +21,72 @@
   .collapse {
     width: 80vw;
     align-self: center;
+    .card {
+      background-color: $white;
+      color: $primary;
+      .hire-text {
+        background-color: $white;
+        box-shadow: #cce5ecab (2px 2px 10px 15px);
+        text-align: justify;
+        margin-top: 150px;
+        margin-left: 40px;
+        height: fit-content;
+        width: fit-content;
+        padding-bottom: 30px;
+        .title {
+          text-align: center;
+          margin-bottom: 30px;
+          padding-top: 30px;
+        }
+      }
+      .hire-inputs {
+        background-color: $white;
+        margin-left: 100px;
+        .card {
+          box-shadow: #b3dbe79a (2px 2px 10px 15px);
+          margin: 20px;
+          background-color: $primary;
+          border-radius: 50px;
+          margin-left: 80px;
+          .card-text {
+            text-align: center;
+            margin-top: 15px;
+          }
+          .form-input {
+            margin-top: 15px;
+            align-self: center;
+            width: 80%;
+            border-radius: 5px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 15px;
+            color: $primary;
+          }
+          .textarea-input {
+            margin-top: 15px;
+            align-self: center;
+            width: 80%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            font-size: 15px;
+            color: $primary;
+          }
+          .form-button {
+            width: 15vw;
+            background-color: $white;
+            color: $primary;
+            align-self: center;
+            height: 40px;
+            border-radius: 15px;
+            text-align: center;
+            outline: none;
+            border: none;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
   }
 }
 

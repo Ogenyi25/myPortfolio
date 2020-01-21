@@ -1,3 +1,13 @@
+.modal-body {
+    .modal-body-content {
+        .web-content {
+
+        }
+        .design-content {
+
+        }
+    }
+}
 .home {
     display: flex;
     flex-direction: column;
@@ -23,7 +33,7 @@
                 border-radius: 5px;
                 border-style: none;
                 margin-top: 50px;
-            }
+            }*/
             .see-work {
                 margin-left: 85px;
                 background-color: $primary;
@@ -32,7 +42,7 @@
                 border-radius: 5px;
                 border-style: none;
                 margin-top: 50px;
-            }*/
+            }
         }
         .welcome-image {
             .image {
