@@ -60,7 +60,7 @@ const Home = () => {
             <h5 className="welcome-body-note">Web-Developer and UIUX/Graphics Designer</h5>
             {/*<button className="hire-me">HIRE ME</button>*/}
             <ButtonToolbar>
-              <Button className="see-work" href="./pages/Work.jsx">
+              <Button className="see-work" onClick={() => setModalShow(true)}>
                 See MY WORK
       </Button>
 

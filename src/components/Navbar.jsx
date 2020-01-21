@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="row container-fluid">
             <div className="hire-text col-md-4">
               <h4 className="title">welcome!</h4>
-              <h6>Here you get the best of what you desire.
+              <h6 className="text">Here you get the best of what you desire.
               <br />Is it -: 
                 <ul>
                   <li>UIUX Design,</li>
