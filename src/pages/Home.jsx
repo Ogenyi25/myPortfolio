@@ -17,21 +17,80 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body className="modal-body">
         <div className="modal-body-content row">
-          <div className="web-content col-md-5">
-            <Card style={{ width: '18rem' }}>
+          <div className="web-content col-md-4">
+            <Card style={{ width: '15rem', height: '35rem' }}>
               <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>ServicedPro</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-    </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
               </Card.Body>
             </Card>
           </div>
-          <div className="design-content col-md-5">
-            design work
+          <div className="col-md-4">
+          <Card style={{ width: '15rem', height: '35rem' }}>
+              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Body>
+                <Card.Title>ServicedPro</Card.Title>
+                <Card.Text>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-4">
+          <Card style={{ width: '15rem', height: '35rem' }}>
+              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Body>
+                <Card.Title>ServicedPro</Card.Title>
+                <Card.Text>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
+
+        <div className="modal-body-content row">
+          <div className="web-content col-md-4">
+            <Card style={{ width: '15rem', height: '35rem' }}>
+              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Body>
+                <Card.Title>ServicedPro</Card.Title>
+                <Card.Text>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-4">
+          <Card style={{ width: '15rem', height: '35rem' }}>
+              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Body>
+                <Card.Title>ServicedPro</Card.Title>
+                <Card.Text>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-4">
+          <Card style={{ width: '15rem', height: '35rem' }}>
+              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Body>
+                <Card.Title>ServicedPro</Card.Title>
+                <Card.Text>
+                  An official company site for an organisation that rents office spaces.
+                </Card.Text>
+                <Button variant="primary">Visit Site</Button>
+              </Card.Body>
+            </Card>
           </div>
         </div>
       </Modal.Body>
@@ -62,7 +121,8 @@ const Home = () => {
             <ButtonToolbar>
               <Button className="see-work" onClick={() => setModalShow(true)}>
                 See MY WORK
-      </Button>
+              </Button>
+              
 
               <MyVerticallyCenteredModal
                 show={modalShow}
