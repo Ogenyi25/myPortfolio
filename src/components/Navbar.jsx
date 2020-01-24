@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="home">
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <div className="navbar-brand col-md-4">Ogenyi</div>
+        <div className="navbar-brand col-md-4"><img className="logo" src={require("../assets/images/favicon.png")} alt="img" /></div>
         <div className="float-right col-md-6">
           <span className="call">Call: 0813 475 6623; 0908 104 6069</span>
           <button className="book-button" type="button" data-toggle="collapse" data-target="#collapseExercise"
