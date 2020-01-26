@@ -19,25 +19,25 @@ function MyVerticallyCenteredModal(props) {
         <div className="modal-body-content row">
           <div className="web-content col-md-4">
             <Card style={{ width: '15rem', height: '35rem' }}>
-              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Img variant="top" src={require("../assets/images/project2.png")} alt="img" />
               <Card.Body>
                 <Card.Title>ServicedPro</Card.Title>
                 <Card.Text>
-                  An official company site for an organisation that rents office spaces.
+                  An official site for an organisation that rents office spaces.
                 </Card.Text>
-                <Button variant="primary">Visit Site</Button>
+                <Button variant="primary" href="http://servicedpro.herokuapp.com/" target="_blank">Visit Site</Button>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-4">
           <Card style={{ width: '15rem', height: '35rem' }}>
-              <Card.Img variant="top" src={require("../assets/images/john.jpg")} alt="img" />
+              <Card.Img variant="top" src={require("../assets/images/project.png")} alt="img" />
               <Card.Body>
-                <Card.Title>ServicedPro</Card.Title>
+                <Card.Title>WIWA</Card.Title>
                 <Card.Text>
-                  An official company site for an organisation that rents office spaces.
+                  A UserInterface Design for a mobile online shopping app.
                 </Card.Text>
-                <Button variant="primary">Visit Site</Button>
+                <Button variant="primary" href="https://www.figma.com/file/gwf3uxUJJedYduQ2pzp4DI/WiwaHub?node-id=0%3A1" target="_blank">Visit Site</Button>
               </Card.Body>
             </Card>
           </div>
